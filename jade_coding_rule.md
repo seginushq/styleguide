@@ -10,5 +10,6 @@
   Omitting the protocol—which makes the URL relative—prevents mixed content issues and results in minor file size savings.
 
 ,,,
+
 a(href='seginus.jp')Seginus_Site
 ,,,
