@@ -1,10 +1,11 @@
-#Jade Coding Rule
+# Jade Coding Rule
 
-##Background
+## Background
   This document defines formatting and style rules for jade. You should keep your code on this.
-  This document based on [Google StyleGuide](https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml).
+  This document based on [Google StyleGuide] (https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml).
 
-##General Style Rules
- ###Protocol
+## General Style Rules
+ ### Protocol
   Omit the protocol portion (http:, https:) from URLs pointing to images and other media files, style sheets, and scripts unless the respective files are not available over both protocols.
   Omitting the protocol—which makes the URL relative—prevents mixed content issues and results in minor file size savings.
+
