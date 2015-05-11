@@ -10,11 +10,11 @@
   Omitting the protocol—which makes the URL relative—prevents mixed content issues and results in minor file size savings.
 
 ```
-a(href='seginus.jp')Seginus_Site
+a(href='seginus.jp')  Seginus_Site
 ```
 ```
 .body
-  background: url(/image/body.png);
+  background: url('/image/body.png')
 ```
 
 ### Indentation
@@ -24,18 +24,18 @@ a(href='seginus.jp')Seginus_Site
 doctype html
 html
   body
-  h1 Hello World!!
+    h1 Hello World!!
 ```
 ```
 .body
-  witdh: 1200px
+  width: 1200px
 ```
 
 ### Capitalization
   Use only lowercase.
   All code has to be lowercase.
 ````
-img(src="sample.png" alt="sample")
+img(src='sample.png' alt='sample')
 ```
 ```
 color: #e5e5e5
@@ -59,9 +59,10 @@ color: #e5e5e5
 ### Comments
   Explain code as needed, where possible.
   Use comments to explain code: What does it cover, what purpose does it serve, why is respective solution used or preferred?
-  (This item is optional as it is not deemed a realistic expectation to always demand fully documented code. Mileage may vary heavily for HTML and CSS code and depends on the project’s complexity.)
+  '//' is visible after compile, '//-' is not visible after compile.
+  You should use '//-' to comment on basically. However you need to publish licence or any comments to people.
 ```
-<!-- TODO; Add links-->
+//- TODO; Add links
 ul
   li Mail
   li SNS
@@ -129,12 +130,12 @@ doctype html
   Unless necessary (for example with helper classes), do not use element names in conjunction with IDs or classes.
   Avoiding unnecessary ancestor selectors is useful for performance reasons.
 ```
-/*Not recommended*/
+//- Not recommended
 ul.example
 
 div.error
 
-/*Recommended*/
+//- Recommended
 .example
 
 .error
@@ -145,7 +146,7 @@ div.error
   CSS offers a variety of shorthand properties (like font) that should be used whenever possible, even in cases where only one value is explicitly set.
   Using shorthand properties is useful for code efficiency and understandability.
 ```
-/* Not recommended */
+//- Not recommended
 border-top-style: none
 font-family: palatino, georgia, serif
 font-size: 100%
@@ -156,7 +157,7 @@ padding-right: 1em
 padding-top: 0
 ```
 ```
-/* Recommended */
+//- Recommended
 border-top: 0
 font: 100%/1.6 palatino, georgia, serif
 padding: 0 1em 2em
@@ -208,12 +209,12 @@ text-align: center
   If you do not put it, get error.
 
 ```
-/* NG Code */
+//- NG Code 
 .body
   background-image:url(image.png)
 ````
 ```
-/* OK Code */
+//- OK Code
 .body
   background-image: url(image.png)
 ```
@@ -221,11 +222,11 @@ text-align: center
 ###Do not Put Semicolon
   You should not use semicolon.
 ```
-/* NG Code */
+//- NG Code
 color: #fff;
 ```
 ```
-/* OK Code */
+//- OK Code
 color: #fff
 ```
 
@@ -256,10 +257,10 @@ h3
   Group sections by a section comment (optional).
   If possible, group style sheet sections together by using comments. Separate sections with new lines.
 ```
-/* header */
+//- header
 .adw-header
 
-/* footer */
+//- footer
 .adw-footer
 ```
 
