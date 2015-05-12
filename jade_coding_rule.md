@@ -185,6 +185,7 @@ color: #ebc
 ```
 
 ## sass Formatting Rules
+  You can learn about sass from http://sass-lang.com/guide.
 ### Declaration Order
   Alphabetize declarations.
   Put declarations in alphabetical order in order to achieve consistent code in a way that is easy to remember and maintain.
@@ -212,11 +213,20 @@ text-align: center
 //- NG Code 
 .body
   background-image:url(image.png)
-````
+```
 ```
 //- OK Code
 .body
   background-image: url(image.png)
+```
+
+### Variable
+  Use snake case on naming variable. Between words is '-'.
+  You set variable the following naming patern. This is based on BEM.
+  [block]-[element]-[modifier]
+```
+$color-font: #000
+$size-window-newtab: 30px
 ```
 
 ###Do not Put Semicolon
