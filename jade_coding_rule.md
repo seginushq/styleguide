@@ -277,3 +277,6 @@ h3
 ##Consultation
 Google Style Guide
 https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+
+## Revision History
+Ver 1.0 | 12th May 2015 | Publish Naming Rule
