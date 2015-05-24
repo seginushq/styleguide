@@ -82,6 +82,12 @@ doctype html
   Use elements (sometimes incorrectly called “tags”) for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, a elements for anchors, etc.
   Using HTML according to its purpose is important for accessibility, reuse, and code efficiency reasons.
 
+### Both ends "="
+  Should not use space both ends "=".
+```
+  a(href="//google.com")google.com
+```
+
 
 ## sass Style Rule
 ### ID and Class Naming
@@ -280,3 +286,4 @@ https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 
 ## Revision History
 Ver 1.0 | 12th May 2015 | Publish Naming Rule
+Ver 1.1 | 24th May 2015 | Add "Both ends "="".
